@@ -44,7 +44,7 @@ function Movies({ Movies }) {
           {/* <h2 className="text-center mb-3 text-danger">
             {Movies == 0 ? "SUPERMAN" : Movies.toUpperCase()}
           </h2> */}
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 gy-4">
+          <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-xl-5 gy-4">
             {movieData.map((movie, index) => {
               return (
                 <div className="col " key={index}>
