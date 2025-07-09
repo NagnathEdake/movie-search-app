@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  background: url("../public/footer.jpg");
+  background-size: cover;
+}
+
+.blackOverlap {
+  width: 100%;
+  background: rgba(95, 7, 99, 0.852);
+}

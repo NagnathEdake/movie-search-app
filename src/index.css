@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, rgba(7, 7, 114, 0.954), rgba(115, 7, 7, 0.985));
+  color: #fff;
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, rgba(214, 8, 217, 0.985), rgb(168, 13, 13));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.heading {
+  font-family: "My Soul", cursive;
+  font-size: 50px;
+}
+
+.searchBar {
+  background: rgb(56, 55, 55);
+  border-radius: 50px;
+}
+
+.input::placeholder {
+  color: #fff;
+}
+
+.input {
+  padding: 10px 35px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+.searchBar button {
+  padding: 10px 30px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+.movieTitle {
+  font-size: 14px;
+  font-family: "Tektur", sans-serif;
+  color: aqua;
+}
+
+.bg-gray {
+  background: rgb(23 21 21);
+}
