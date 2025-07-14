@@ -21,7 +21,7 @@ function App() {
 
       <Input setMovie={setMovieName} Name={movieName} />
       <Movies Movies={movieName} />
-      <Footer />
+      <Footer Movie={movieName} />
     </div>
   );
 }
