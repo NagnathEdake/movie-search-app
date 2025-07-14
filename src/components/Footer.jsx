@@ -1,6 +1,7 @@
 import React from "react";
 
 function Footer({Movie}) {
+  const movieName = !Movie ? "superman" : Movie
   return (
     <div className="footer border-top border-danger ">
       <div className="blackOverlap text-white d-flex flex-column justify-content-center align-items-center">
@@ -19,7 +20,7 @@ function Footer({Movie}) {
               <i class="fab fa-instagram"></i>
             </a>
             <a
-              href={`https://m.youtube.com/results?search_query=${Movie}+trailer`}
+              href={`https://m.youtube.com/results?search_query=${movieName}+trailer`}
               class="text-light"
             >
               <i class="fab fa-youtube"></i> 
