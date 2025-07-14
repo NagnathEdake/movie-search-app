@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+function Footer({Movie}) {
   return (
     <div className="footer border-top border-danger ">
       <div className="blackOverlap text-white d-flex flex-column justify-content-center align-items-center">
@@ -19,7 +19,7 @@ function Footer() {
               <i class="fab fa-instagram"></i>
             </a>
             <a
-              href="https://www.youtube.com/results?search_query=movie+trailers+hollywood"
+              href=`https://m.youtube.com/results?search_query=${Movie}+trailer`
               class="text-light"
             >
               <i class="fab fa-youtube"></i>
