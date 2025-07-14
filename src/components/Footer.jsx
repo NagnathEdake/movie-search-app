@@ -19,7 +19,7 @@ function Footer({Movie}) {
               <i class="fab fa-instagram"></i>
             </a>
             <a
-              href=`https://m.youtube.com/results?search_query=${Movie}+trailer`
+              href={`https://m.youtube.com/results?search_query=${Movie}+trailer`}
               class="text-light"
             >
               <i class="fab fa-youtube"></i> 
