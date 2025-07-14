@@ -22,7 +22,7 @@ function Footer({Movie}) {
               href=`https://m.youtube.com/results?search_query=${Movie}+trailer`
               class="text-light"
             >
-              <i class="fab fa-youtube"></i>
+              <i class="fab fa-youtube"></i> 
             </a>
           </div>
         </div>
